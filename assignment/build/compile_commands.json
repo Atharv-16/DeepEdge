@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/atharv/Downloads/assignment/build",
+  "command": "/usr/bin/c++ -isystem /usr/include/opencv4  -mavx2 -fopenmp -g -std=gnu++11 -o CMakeFiles/ImageResizeSIMD.dir/main.cpp.o -c /home/atharv/Downloads/assignment/main.cpp",
+  "file": "/home/atharv/Downloads/assignment/main.cpp",
+  "output": "CMakeFiles/ImageResizeSIMD.dir/main.cpp.o"
+}
+]

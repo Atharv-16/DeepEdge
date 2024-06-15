@@ -1,0 +1,3 @@
+/home/atharv/Downloads/assignment/build/CMakeFiles/ImageResizeSIMD.dir
+/home/atharv/Downloads/assignment/build/CMakeFiles/edit_cache.dir
+/home/atharv/Downloads/assignment/build/CMakeFiles/rebuild_cache.dir
