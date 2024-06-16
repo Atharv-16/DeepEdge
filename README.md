@@ -1,6 +1,6 @@
-# Image Resizing with SIMD and OpenMP
+# Image Resizing with OpenCV
 
-This project demonstrates image resizing using custom implementations of nearest neighbor, bilinear, and bicubic interpolation. It also compares the performance with OpenCV's resizing functions. The project utilizes SIMD (AVX2) and OpenMP for parallel processing.
+This project demonstrates image resizing using OpenCV's `cv::resize` function and a custom resizing function. The project includes timing measurements for three interpolation methods: INTER_NEAREST, INTER_LINEAR, and INTER_CUBIC.
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ This project demonstrates image resizing using custom implementations of nearest
 
 ## Running the Application
 
-Ensure you have the input image `G178_2-1080.BMP` in the project root directory and build.
+Ensure you have the input image `G178_2-1080.BMP` in the `build` directory.
 
 ```sh
-./ImageResizeSIMD
+./main ../G178_2-1080.BMP
