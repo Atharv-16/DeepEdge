@@ -53,4 +53,4 @@ This project demonstrates image resizing using OpenCV's `cv::resize` function an
 Ensure you have the input image `G178_2-1080.BMP` in the `build` directory.
 
 ```sh
-./main ../G178_2-1080.BMP
+./ImageResizeSIMD
