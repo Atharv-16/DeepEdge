@@ -12,7 +12,7 @@ This project demonstrates image resizing using OpenCV's `cv::resize` function an
 1. Clone the repository:
     ```sh
     git clone https://github.com/Atharv-16/DeepEdge.git
-    cd DeepEdge
+    cd DeepEdge/assignment
     ```
 
 2. Install the required dependencies:
