@@ -1,6 +1,6 @@
-# Image Resizing with OpenCV
+# Image Resizing with SIMD and OpenMP
 
-This project demonstrates image resizing using OpenCV's `cv::resize` function and a custom resizing function. The project includes timing measurements for three interpolation methods: INTER_NEAREST, INTER_LINEAR, and INTER_CUBIC.
+This project demonstrates image resizing using custom implementations of nearest neighbor, bilinear, and bicubic interpolation. It also compares the performance with OpenCV's resizing functions. The project utilizes SIMD (AVX2) and OpenMP for parallel processing.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ This project demonstrates image resizing using OpenCV's `cv::resize` function an
 1. Clone the repository:
     ```sh
     git clone https://github.com/Atharv-16/DeepEdge.git
-    cd DeepEdge/assignment
+    cd DeepEdge
     ```
 
 2. Install the required dependencies:
@@ -50,7 +50,7 @@ This project demonstrates image resizing using OpenCV's `cv::resize` function an
 
 ## Running the Application
 
-Ensure you have the input image `G178_2-1080.BMP` in the `build` directory.
+Ensure you have the input image `G178_2-1080.BMP` in the project root directory and build.
 
 ```sh
-./main
+./ImageResizeSIMD
