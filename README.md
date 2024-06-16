@@ -46,11 +46,16 @@ This project demonstrates image resizing using OpenCV's `cv::resize` function an
     ```sh
     cmake ..
     make
+
     ```
-
-## Running the Application
-
+    
 Ensure you have the input image `G178_2-1080.BMP` in the `build` directory.
 
 ```sh
 ./ImageResizeSIMD
+```
+
+# Results
+## Running the Application
+![time](https://github.com/Atharv-16/DeepEdge/assets/119600601/5b0d6956-30d2-4999-a090-4d08184c2189)
+![cubic](https://github.com/Atharv-16/DeepEdge/assets/119600601/e95e13c3-7b62-458f-a68a-a46f42e0adc8)
