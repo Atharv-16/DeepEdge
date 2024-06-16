@@ -31,13 +31,18 @@ This project demonstrates image resizing using OpenCV's `cv::resize` function an
       brew install cmake opencv
       ```
 
-3. Create a build directory and navigate into it:
+3. Remove the existing `build` directory if it exists:
+    ```sh
+    rm -rf build
+    ```
+
+4. Create a build directory and navigate into it:
     ```sh
     mkdir build
     cd build
     ```
 
-4. Configure and build the project:
+5. Configure and build the project:
     ```sh
     cmake ..
     make
